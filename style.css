@@ -1,0 +1,84 @@
+/* Overall style */
+body {
+  background-color: bisque;
+}
+
+#Name {
+  text-decoration: underline;
+  font-family: fantasy;
+  font-weight: bolder;
+  display: flex;
+  margin: auto;
+}
+
+nav {
+  border: 1px solid black;
+  border-radius: 0 20px 0 20px;
+  padding: 10px 0 10px 0;
+  background-color: grey;
+  color: whitesmoke;
+  font-weight: bold;
+  height: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: underline;
+}
+#T {
+  color: white;
+  align-items: center;
+  text-shadow: 2px 2px 5px dodgerblue;
+}
+
+#button {
+  cursor: pointer;
+}
+
+.F1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  gap: 10ch;
+}
+
+.git {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.linked {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* home page */
+
+.quote {
+  font-size: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.AD {
+  text-decoration: underline;
+}
+
+/* about page */
+
+#AB {
+  background-color: bisque;
+}
+
+/* Portfolio page */
+
+#PO {
+  background-color: bisque;
+}
