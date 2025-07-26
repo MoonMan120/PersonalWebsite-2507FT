@@ -93,6 +93,10 @@ nav {
   background-color: bisque;
 }
 
+.ST {
+  text-align: center;
+}
+
 .construction {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
